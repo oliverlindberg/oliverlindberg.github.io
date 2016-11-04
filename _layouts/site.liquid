@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Oliver Lindberg</title>
+	<meta charset="UTF-8" />
+	<meta name="description" content="{% if page.description != '' %}{{ page.description }}{% endif %}">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta http-equiv="Accept-CH" content="DPR,Width,Viewport-Width" />
+	<link rel="stylesheet" type="text/css" href="/css/screen.css">
+	<script type="text/javascript" src="https://use.typekit.net/jwi5pdi.js"></script>
+	<script type="text/javascript">try{Typekit.load({ async: true });}catch(e){}</script>
+	{% seo %}
+</head>
+<body>
+{% include header.html %}
+{{ content }}
+{% include footer.html %}
+<script type="text/javascript" src="/js/site.min.js" async></script>
+</body>
+</html>

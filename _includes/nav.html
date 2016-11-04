@@ -1,0 +1,15 @@
+{% assign current = page.title | downcase %}
+<a href="/" class="nav-open-close">— Menu —</a>
+<div class="nav">
+    <div>
+        <ul class="nav-main">
+            <li><a href="/"{% if current == 'home' %} class="active"{% endif %}>Home <span> Recent projects, selected articles, and more</span></a></li>
+            <li><a href="/about/"{% if current == 'about' %} class="active"{% endif %}>About <span> Bio including previous positions and projects</span></a></li>
+            <li><a href="/writing/"{% if current == 'writing' %} class="active"{% endif %}>Writing <span> Full archive of online articles</span></a></li>
+            <li><a href="/speaking/"{% if current == 'speaking' %} class="active"{% endif %}>Speaking <span> Conferences, events, and workshops</span></a></li>
+            <li><a href="/newsletter/"{% if current == 'newsletter' %} class="active"{% endif %}>Newsletter <span> A cultural dispatch for digital workers</span></a></li>
+            <li><a href="https://blog.keirwhitaker.com/">Blog <span> My personal blog hosted on Medium</span></a></li>
+            <li><a href="http://backtofrontshow.com">Podcast <span> The Back to Front Show web site</span></a></li>
+        </ul>
+    </div>
+</div>

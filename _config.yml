@@ -1,0 +1,37 @@
+---
+title: Oliver Lindberg
+timezone: UTC
+email: mailto:oliver.lindberg@gmail.com
+description: The personal web site of Oliver Lindberg
+baseurl: ''
+url: ''
+twitter:
+  username: oliverlindberg
+github_username: oliverlindberg
+author:
+  twitter: oliverlindberg
+markdown: kramdown
+social:
+  name: Oliver Lindberg
+  links:
+      - https://twitter.com/oliverlindberg
+      - https://www.facebook.com/oliver.lindberg
+      - https://www.instagram.com/lindberg.oliver/
+      - https://www.linkedin.com/in/oliver-lindberg
+      - https://medium.com/@oliverlindberg
+theme:
+gems:
+#- jekyll-feed
+- jekyll-seo-tag
+- jekyll-sitemap
+exclude:
+- Gemfile
+- Gemfile.lock
+- config.codekit
+- "/js/libs"
+- "/js/site.js"
+- vendor
+- .sass-cahce
+sass:
+  sass_dir: _sass
+  style: compressed
