@@ -10,6 +10,22 @@
 	<link rel="stylesheet" type="text/css" href="/css/screen.css">
 	<script type="text/javascript" src="https://use.typekit.net/jwi5pdi.js"></script>
 	<script type="text/javascript">try{Typekit.load({ async: true });}catch(e){}</script>
+	<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
 	{% seo %}
 </head>
 <body>

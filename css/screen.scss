@@ -212,7 +212,7 @@ figcaption {
 }
 
 
-	/* ----------------------------------------------------------------------------------------------------------
+/* ----------------------------------------------------------------------------------------------------------
 
 Layout
 
@@ -259,8 +259,6 @@ Layout
 	}
 }
 
-
-
 /* ----------------------------------------------------------------------------------------------------------
 
 Bio
@@ -273,20 +271,12 @@ Bio
 	text-align: center;
 	color: #FFF;
 
-
-
 	@media screen and (min-width: $mq-tablet) {
-
 		padding: 4rem;
-
-
-		//color: #000;
 	}
 
 	div {
 		@media screen and (min-width: $mq-tablet) {
-			// background: #FFF;
-			// padding: 4rem;
 		}
 	}
 
@@ -310,94 +300,103 @@ Bio
 	}
 }
 
-	/* ----------------------------------------------------------------------------------------------------------
+/* ----------------------------------------------------------------------------------------------------------
 
-	Hero
+Hero
 
-	---------------------------------------------------------------------------------------------------------- */
+---------------------------------------------------------------------------------------------------------- */
 
+figure.hero {
+	margin-top: 0 !important;
 
+	figcaption {
+		background: #f1f1f1;
+		padding: 4rem 2rem;
+		line-height: 3rem;
+		text-align: left;
+		color: #444;
 
-		figure.hero {
-			margin-top: 0 !important;
-
-			figcaption {
-				background: #f1f1f1;
-				line-height: 3rem;
-text-align: left;
-				padding: 4rem 2rem;
-				color: #444;
-
-				@media screen and (min-width: $mq-tablet) {
-						padding: 4rem 6rem;
-						text-align: center;
-				}
-
-				@media screen and (min-width: $mq-desktop) {
-						padding: 4rem 10rem;
-				}
-
-				@media screen and (min-width: $mq-desktop) and (orientation: landscape)  {
-						padding: 4rem 10rem;
-				}
-
-				@media screen and (min-width: $mq-wide) {
-						padding: 4rem 18rem;
-				}
-			}
+		@media screen and (min-width: $mq-tablet) {
+				padding: 4rem 6rem;
+				text-align: center;
 		}
 
+		@media screen and (min-width: $mq-desktop) {
+				padding: 4rem 10rem;
+		}
 
-		/* ----------------------------------------------------------------------------------------------------------
+		@media screen and (min-width: $mq-desktop) and (orientation: landscape)  {
+				padding: 4rem 10rem;
+		}
 
-		Accepting work
+		@media screen and (min-width: $mq-wide) {
+				padding: 4rem 18rem;
+		}
+	}
+}
 
-		---------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------------------------------
 
-		.accepting {
-			background: #F1F1F1;
+Accepting work
+
+---------------------------------------------------------------------------------------------------------- */
+
+.accepting {
+	font-weight: 500;
+
+	p:last-child {
+		font-weight: 600;
+	}
+}
+
+/* ----------------------------------------------------------------------------------------------------------
+
+Testimonial
+
+---------------------------------------------------------------------------------------------------------- */
+
+.testimonial {
+	background: #F1F1F1;
+	font-weight: 500;
+	@include clearfix;
+
+	blockquote{
+		display: block;
+		width: 100%;
+		margin-bottom: 4rem;
+	}
+
+	blockquote {
+
+		img {
+			float: left;
+			width: 100px;
+			border-radius: 5rem;
+		}
+
+		a {
 			font-weight: 600;
-			// background: $highlight;
-			// padding: 2rem;
-			// text-align: center;
-			// color: #FFF;
-			//
-			//
-			//
-			// @media screen and (min-width: $mq-tablet) {
-			//
-			// 	padding: 4rem;
-			//
-			//
-			// 	//color: #000;
-			// }
-			//
-			// div {
-			// 	@media screen and (min-width: $mq-tablet) {
-			// 		// background: #FFF;
-			// 		// padding: 4rem;
-			// 	}
-			// }
-			//
-			// h1 {
-			// 	margin-bottom: 3rem;
-			// 	font-size: 2.6rem;
-			// 	color: #FFF;
-			//
-			// 	span {
-			// 		font-weight: 500;
-			// 	}
-			//
-			// 	@media screen and (min-width: $mq-tablet) {
-			// 		text-align: center;
-			// 		font-size: 5rem;
-			// 	}
-			// }
-			//
-			// p {
-			// 	font-weight: 600;
-			// }
 		}
+
+		p {
+			margin-left: 125px;
+			font-style: italic;
+		}
+	}
+
+	blockquote:nth-child(2n) {
+
+		img {
+			float: right;
+		}
+
+		p {
+			margin-left: 0;
+			margin-right: 125px;
+		}
+	}
+
+}
 
 /* ----------------------------------------------------------------------------------------------------------
 
@@ -411,29 +410,12 @@ About
 		display: block;
 		width: 100%;
 		margin-bottom: 1rem;
-
-		// @media screen and (min-width: $mq-tablet) {
-		// 	float: right;
-		// 	width: 50%;
-		// 	margin: 0 0 1rem 1rem;
-		// }
 	}
-
-	// p {
-	// 	@media screen and (min-width: $mq-tablet) {
-	//
-	// 	}
-	//
-	// 	@media screen and (min-width: $mq-desktop) {
-	// 		margin-right: 55%;
-	// 	}
-	// }
 
 	div {
 		@include clearfix;
 	}
 }
-
 
 /* ----------------------------------------------------------------------------------------------------------
 
@@ -442,7 +424,7 @@ Footer
 ---------------------------------------------------------------------------------------------------------- */
 
 .footer {
-	background: #FFF;
+	background: #F1F1F1;
 	text-align: center;
 
 	p, a {
@@ -471,7 +453,7 @@ Footer
 		span.genericon {
 			margin: 0 0.5rem;
 			font-size: 2.4rem;
-			color: #ACABAB;
+			color: #444;
 
 			@media screen and (min-width: $mq-tablet) {
 				margin: 0 1rem;
