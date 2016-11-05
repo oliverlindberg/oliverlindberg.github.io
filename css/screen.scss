@@ -13,7 +13,7 @@ Sass variables
 
 $highlight:     #0C4180;
 $font-sans:     "proxima-nova", 'freight-sans-pro', Helvetica, Arial, sans-serif;
-$font-serifs:   "semplicitapro";
+$font-serifs:   "neuzeit-grotesk";
 
 $mq-tablet:     40em;   //  700px;
 $mq-desktop:    60em;   // 1000px;
@@ -118,12 +118,13 @@ strong {
 }
 
 h1 {
-	margin-bottom: 3rem;
+	margin-bottom: 2rem;
 	font-family: $font-serifs;
-	font-size: 2.4rem;
-	font-weight: 700;
+	font-size: 3rem;
+	font-weight: 900;
 	line-height: 3rem;
-	text-align: center;
+	//letter-spacing: 1px;
+	//text-align: center;
 	color: #000;
 
 	@media screen and (min-width: $mq-tablet) {
@@ -141,9 +142,10 @@ h1 {
 h2 {
 	margin-bottom: 2rem;
 	font-family: $font-serifs;
-	font-size: 1.8rem;
+	font-size: 2.4rem;
 	font-weight: 700;
 	line-height: 2.4rem;
+	//letter-spacing: 1px;
 	color: #000;
 
 	&.divide {
@@ -318,27 +320,26 @@ figure.hero {
 
 	figcaption {
 		background: #f1f1f1;
-		padding: 4rem 2rem;
+		padding: 1rem 2rem;
 		line-height: 3rem;
 		text-align: left;
-		font-weight: 600;
-		color: #444;
+		font-weight: 500;
+		color: #999;
 
 		@media screen and (min-width: $mq-tablet) {
-				padding: 4rem 6rem;
-				//text-align: center;
+			padding: 2rem 6rem;
 		}
 
 		@media screen and (min-width: $mq-desktop) {
-				padding: 4rem 12rem;
+			padding: 2rem 12rem;
 		}
 
 		@media screen and (min-width: $mq-desktop) and (orientation: landscape)  {
-				padding: 4rem 12rem;
+			padding: 2rem 12rem;
 		}
 
 		@media screen and (min-width: $mq-wide) {
-				padding: 8rem 20rem;
+			padding: 2rem 22rem;
 		}
 
 		p {
@@ -374,6 +375,7 @@ Testimonial
 
 	h1 {
 		margin-bottom: 4rem;
+		text-align: center;
 	}
 
 	blockquote{
@@ -396,7 +398,7 @@ Testimonial
 		}
 
 		p {
-			//margin-left: 125px;
+			margin-left: 125px;
 			font-style: italic;
 		}
 	}
@@ -410,6 +412,7 @@ Testimonial
 
 		p {
 			margin-left: 0;
+			margin-right: 125px;
 			//margin-right: 125px;
 		}
 	}
@@ -437,6 +440,11 @@ About
 	div {
 		@include clearfix;
 	}
+
+	h1 + p {
+		font-style: italic;
+		font-weight: 600;
+	}
 }
 
 /* ----------------------------------------------------------------------------------------------------------
@@ -449,42 +457,43 @@ Footer
 	background: #F1F1F1;
 	text-align: center;
 
-	p, a {
-		color: #ACABAB;
-	}
+	// p, a {
+	// 	color: #444;
+	// }
 
 	p {
-		font-size: 1.4rem;
+		font-size: 2rem;
+		line-height: 3.6rem;
 		font-weight: 600;
-		text-transform: uppercase;
-		letter-spacing: 1px;
+		//text-transform: uppercase;
+		//letter-spacing: 1px;
 	}
 
-	p a:hover {
-		color: #444;
-		@include transition(all 0.2s ease-in-out);
-	}
+	// p a:hover {
+	// 	color: #444;
+	// 	@include transition(all 0.2s ease-in-out);
+	// }
 
-	.social {
-		margin-bottom: 1rem;
-	}
+	// .social {
+	// 	margin-bottom: 1rem;
+	// }
 
-	a {
-		border: none;
-
-		span.genericon {
-			margin: 0 0.5rem;
-			font-size: 2.4rem;
-			color: #444;
-
-			@media screen and (min-width: $mq-tablet) {
-				margin: 0 1rem;
-			}
-
-			&:hover {
-				color: #444;
-				@include transition(all 0.2s ease-in-out);
-			}
-		}
-	}
+	// a {
+	// 	border: none;
+	//
+	// 	span.genericon {
+	// 		margin: 0 0.5rem;
+	// 		font-size: 2.4rem;
+	// 		color: #444;
+	//
+	// 		@media screen and (min-width: $mq-tablet) {
+	// 			margin: 0 1rem;
+	// 		}
+	//
+	// 		&:hover {
+	// 			color: #444;
+	// 			@include transition(all 0.2s ease-in-out);
+	// 		}
+	// 	}
+	// }
 }
