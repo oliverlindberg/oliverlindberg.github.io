@@ -55,7 +55,7 @@ html {
     }
 
     @media screen and (min-width: $mq-wide) {
-		background: $highlight url(../img/bkg/noise.png);
+		background: $highlight;
     }
 }
 
@@ -118,11 +118,12 @@ strong {
 }
 
 h1 {
-	margin-bottom: 1.6rem;
+	margin-bottom: 3rem;
 	font-family: $font-serifs;
-	font-size: 2.2rem;
+	font-size: 2.4rem;
 	font-weight: 700;
 	line-height: 3rem;
+	text-align: center;
 	color: #000;
 
 	@media screen and (min-width: $mq-tablet) {
@@ -140,7 +141,7 @@ h1 {
 h2 {
 	margin-bottom: 1.6rem;
 	font-family: $font-serifs;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
 	font-weight: 700;
 	line-height: 2.4rem;
 	color: #000;
@@ -161,7 +162,7 @@ h2 {
 }
 
 p {
-	margin-bottom: 1.6rem;
+	margin-bottom: 2rem;
 	font-size: 1.6rem;
 
 	&:last-child {
@@ -281,22 +282,28 @@ Bio
 	}
 
 	h1 {
-		margin-bottom: 3rem;
+		margin-bottom: 1rem;
 		font-size: 2.6rem;
 		color: #FFF;
 
-		span {
-			font-weight: 500;
-		}
-
 		@media screen and (min-width: $mq-tablet) {
+			margin-bottom: 2rem;
 			text-align: center;
 			font-size: 5rem;
+		}
+
+		@media screen and (min-width: $mq-desktop) {
+			margin-bottom: 3rem;
 		}
 	}
 
 	p {
+		line-height: 2rem;
 		font-weight: 600;
+
+		@media screen and (min-width: $mq-desktop) {
+			margin-bottom: 3rem;
+		}
 	}
 }
 
@@ -314,23 +321,28 @@ figure.hero {
 		padding: 4rem 2rem;
 		line-height: 3rem;
 		text-align: left;
+		font-weight: 600;
 		color: #444;
 
 		@media screen and (min-width: $mq-tablet) {
 				padding: 4rem 6rem;
-				text-align: center;
+				//text-align: center;
 		}
 
 		@media screen and (min-width: $mq-desktop) {
-				padding: 4rem 10rem;
+				padding: 4rem 12rem;
 		}
 
 		@media screen and (min-width: $mq-desktop) and (orientation: landscape)  {
-				padding: 4rem 10rem;
+				padding: 4rem 12rem;
 		}
 
 		@media screen and (min-width: $mq-wide) {
-				padding: 4rem 18rem;
+				padding: 8rem 20rem;
+		}
+
+		p {
+			max-width: 1100px;
 		}
 	}
 }
@@ -360,6 +372,10 @@ Testimonial
 	font-weight: 500;
 	@include clearfix;
 
+	h1 {
+		margin-bottom: 4rem;
+	}
+
 	blockquote{
 		display: block;
 		width: 100%;
@@ -372,6 +388,7 @@ Testimonial
 			float: left;
 			width: 100px;
 			border-radius: 5rem;
+			margin: 0 2rem 2rem 0;
 		}
 
 		a {
@@ -379,20 +396,21 @@ Testimonial
 		}
 
 		p {
-			margin-left: 125px;
+			//margin-left: 125px;
 			font-style: italic;
 		}
 	}
 
-	blockquote:nth-child(2n) {
+	blockquote:nth-child(odd) {
 
 		img {
 			float: right;
+			margin: 0 0 2rem 2rem;
 		}
 
 		p {
 			margin-left: 0;
-			margin-right: 125px;
+			//margin-right: 125px;
 		}
 	}
 
