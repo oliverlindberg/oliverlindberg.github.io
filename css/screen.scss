@@ -101,7 +101,7 @@ body {
 
 a {
 	padding-bottom: 1px;
-	border-bottom: 1px solid $highlight;
+	border-bottom: 1px solid #CCC;
 	font-weight: 600;
 	text-decoration: none;
 	color: $highlight;
@@ -139,7 +139,7 @@ h1 {
 }
 
 h2 {
-	margin-bottom: 1.6rem;
+	margin-bottom: 2rem;
 	font-family: $font-serifs;
 	font-size: 1.8rem;
 	font-weight: 700;
@@ -412,6 +412,10 @@ Testimonial
 			margin-left: 0;
 			//margin-right: 125px;
 		}
+	}
+
+	blockquote:last-child {
+		margin-bottom: 0;
 	}
 
 }
