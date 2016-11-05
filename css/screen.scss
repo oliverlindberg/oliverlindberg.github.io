@@ -395,11 +395,17 @@ Testimonial
 
 		a {
 			font-weight: 600;
+			font-family: $font-sans;
+		}
+
+		span {
+			display: block;
 		}
 
 		p {
 			margin-left: 125px;
 			font-style: italic;
+			font-family: Georgia;
 		}
 	}
 
@@ -443,7 +449,8 @@ About
 
 	h1 + p {
 		font-style: italic;
-		font-weight: 600;
+		font-family: Georgia;
+		//font-weight: 600;
 	}
 }
 
@@ -455,7 +462,7 @@ Footer
 
 .footer {
 	background: #F1F1F1;
-	text-align: center;
+	//text-align: center;
 
 	// p, a {
 	// 	color: #444;
