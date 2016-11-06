@@ -3,7 +3,7 @@
 
 @import '../_sass/bourbon/bourbon';
 @import '../_sass/mixins/meyer-reset';
-@import '../_sass/mixins/genericons';
+//@import '../_sass/mixins/genericons';
 
 /* ----------------------------------------------------------------------------------------------------------
 
@@ -11,7 +11,7 @@ Sass variables
 
 ---------------------------------------------------------------------------------------------------------- */
 
-$highlight:     #0C4180;
+$highlight:     #D0021B;
 $font-sans:     "proxima-nova", 'freight-sans-pro', Helvetica, Arial, sans-serif;
 $font-serifs:   "neuzeit-grotesk";
 
@@ -55,7 +55,7 @@ html {
     }
 
     @media screen and (min-width: $mq-wide) {
-		background: $highlight;
+		background: #111 url(https://keirwhitaker.com/img/bkg/noise.png);
     }
 }
 
@@ -269,13 +269,17 @@ Bio
 ---------------------------------------------------------------------------------------------------------- */
 
 .bio {
-	background: $highlight;
+	background: #111;
 	padding: 2rem;
 	text-align: center;
 	color: #FFF;
 
 	@media screen and (min-width: $mq-tablet) {
 		padding: 4rem;
+	}
+
+	@media screen and (min-width: $mq-wide) {
+		background: #111 url(https://keirwhitaker.com/img/bkg/noise.png);
 	}
 
 	div {
@@ -300,11 +304,21 @@ Bio
 	}
 
 	p {
-		line-height: 2rem;
-		font-weight: 600;
+		font-size: 2rem;
+		font-family: Georgia;
+		line-height: 2.6rem;
+		font-weight: 500;
+		font-style: italic;
+
+		@media screen and (min-width: $mq-tablet) {
+			//font-size: 2.2rem;
+		}
+
+
 
 		@media screen and (min-width: $mq-desktop) {
 			margin-bottom: 3rem;
+			font-size: 2.4rem;
 		}
 	}
 }
@@ -461,46 +475,53 @@ Footer
 
 ---------------------------------------------------------------------------------------------------------- */
 
-.footer {
+.hireme {
 	background: #F1F1F1;
 
 	p {
 		font-size: 2rem;
 		line-height: 3.6rem;
 		font-weight: 600;
-		//text-transform: uppercase;
-		//letter-spacing: 1px;
 	}
 
-	// p a:hover {
-	// 	color: #444;
-	// 	@include transition(all 0.2s ease-in-out);
-	// }
-
-	// .social {
-	// 	margin-bottom: 1rem;
-	// }
-
-	// a {
-	// 	border: none;
-	//
-	// 	span.genericon {
-	// 		margin: 0 0.5rem;
-	// 		font-size: 2.4rem;
-	// 		color: #444;
-	//
-	// 		@media screen and (min-width: $mq-tablet) {
-	// 			margin: 0 1rem;
-	// 		}
-	//
-	// 		&:hover {
-	// 			color: #444;
-	// 			@include transition(all 0.2s ease-in-out);
-	// 		}
-	// 	}
-	// }
 }
 
+
+	/* ----------------------------------------------------------------------------------------------------------
+
+	Social
+
+	---------------------------------------------------------------------------------------------------------- */
+
+.social {
+
+	text-align: center;
+
+	img {
+		width: 100px;
+		border-radius: 5rem;
+		margin: 0 auto;
+	}
+
+	a.fa {
+		display: inline-block;
+		margin: 0 1rem;
+		font-size: 3rem;
+		border: none;
+
+		&:hover {
+			color: #111;
+		}
+	}
+
+
+}
+
+/* ----------------------------------------------------------------------------------------------------------
+
+Hacks
+
+---------------------------------------------------------------------------------------------------------- */
 
 a[href="http://www.creativebloq.com/net-magazine"],
 a[href="https://www.amazon.de/Lemmy-Ultimate-Tribute-Robin-Alway/dp/3739130261"] {
