@@ -463,11 +463,6 @@ Footer
 
 .footer {
 	background: #F1F1F1;
-	//text-align: center;
-
-	// p, a {
-	// 	color: #444;
-	// }
 
 	p {
 		font-size: 2rem;
@@ -504,4 +499,10 @@ Footer
 	// 		}
 	// 	}
 	// }
+}
+
+
+a[href="http://www.creativebloq.com/net-magazine"],
+a[href="https://www.amazon.de/Lemmy-Ultimate-Tribute-Robin-Alway/dp/3739130261"] {
+	font-style: italic;
 }
