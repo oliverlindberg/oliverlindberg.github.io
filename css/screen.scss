@@ -55,7 +55,7 @@ html {
     }
 
     @media screen and (min-width: $mq-wide) {
-		background: #111 url(https://keirwhitaker.com/img/bkg/noise.png);
+		background: #111;
     }
 }
 
@@ -264,11 +264,11 @@ Layout
 
 /* ----------------------------------------------------------------------------------------------------------
 
-Bio
+Header
 
 ---------------------------------------------------------------------------------------------------------- */
 
-.bio {
+.header {
 	background: #111;
 	padding: 2rem;
 	text-align: center;
@@ -279,7 +279,7 @@ Bio
 	}
 
 	@media screen and (min-width: $mq-wide) {
-		background: #111 url(https://keirwhitaker.com/img/bkg/noise.png);
+		background: #111;
 	}
 
 	div {
@@ -365,16 +365,22 @@ figure.hero {
 
 /* ----------------------------------------------------------------------------------------------------------
 
-Accepting work
+About
 
 ---------------------------------------------------------------------------------------------------------- */
 
-.accepting {
-	font-weight: 500;
+.about {
 
-	// p:last-child {
-	// 	font-weight: 600;
-	// }
+	figure {
+		display: block;
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+
+	h1 + p {
+		font-style: italic;
+		font-family: Georgia;
+	}
 }
 
 /* ----------------------------------------------------------------------------------------------------------
@@ -403,9 +409,14 @@ Testimonial
 
 		img {
 			float: left;
-			width: 100px;
+			width: 7.5rem;
 			border-radius: 5rem;
-			margin: 0 2rem 2rem 0;
+			margin: 0.5rem 2rem 0 0;
+
+			@media screen and (min-width: $mq-tablet) {
+				width: 10rem;
+				margin: 0.5rem 2rem 0 0;
+			}
 		}
 
 		a {
@@ -419,9 +430,12 @@ Testimonial
 		}
 
 		p {
-			margin-left: 125px;
 			font-style: italic;
 			font-family: Georgia;
+
+			@media screen and (min-width: $mq-tablet) {
+				margin-left: 12rem;
+			}
 		}
 	}
 
@@ -429,13 +443,15 @@ Testimonial
 
 		img {
 			float: right;
-			margin: 0 0 2rem 2rem;
+			margin: 0.5rem 0 0 2rem;
 		}
 
 		p {
 			margin-left: 0;
-			margin-right: 125px;
-			//margin-right: 125px;
+
+			@media screen and (min-width: $mq-tablet) {
+				margin-right: 12rem;
+			}
 		}
 	}
 
@@ -447,32 +463,18 @@ Testimonial
 
 /* ----------------------------------------------------------------------------------------------------------
 
-About
+Clients
 
 ---------------------------------------------------------------------------------------------------------- */
 
-.about {
-
-	figure {
-		display: block;
-		width: 100%;
-		margin-bottom: 1rem;
-	}
-
-	div {
-		@include clearfix;
-	}
-
-	h1 + p {
-		font-style: italic;
-		font-family: Georgia;
-		//font-weight: 600;
-	}
+.clients {
+	font-weight: 500;
 }
+
 
 /* ----------------------------------------------------------------------------------------------------------
 
-Footer
+Hire Me
 
 ---------------------------------------------------------------------------------------------------------- */
 
@@ -488,11 +490,11 @@ Footer
 }
 
 
-	/* ----------------------------------------------------------------------------------------------------------
+/* ----------------------------------------------------------------------------------------------------------
 
-	Social
+Social
 
-	---------------------------------------------------------------------------------------------------------- */
+---------------------------------------------------------------------------------------------------------- */
 
 .social {
 
@@ -507,23 +509,28 @@ Footer
 	a.fa {
 		display: inline-block;
 		margin: 0 1rem;
-		font-size: 3rem;
 		border: none;
+		font-size: 2rem;
+		color: #444;
 
 		&:hover {
-			color: #111;
+			color: $highlight;
+		}
+
+		@media screen and (min-width: $mq-tablet) {
+			font-size: 3rem;
 		}
 	}
 
 
 }
 
+/* ----------------------------------------------------------------------------------------------------------
 
-	/* ----------------------------------------------------------------------------------------------------------
+Lindberg Interviews
 
-	Lindberg Interviews
+---------------------------------------------------------------------------------------------------------- */
 
-	---------------------------------------------------------------------------------------------------------- */
 .lindberg-interviews {
 
 	img {
@@ -538,7 +545,7 @@ Footer
 		}
 
 		&:nth-child(2) {
-			
+
 			transform: rotate(5deg);
 		}
 		&:nth-child(3) {
@@ -550,8 +557,6 @@ Footer
 			transform: rotate(6deg);
 		}
 	}
-
-
 
 }
 
