@@ -1402,17 +1402,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/img\/hero-oliver.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 190505,
-		"inputAbbreviatedPath": "\/_site\/img\/hero-oliver.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/hero-oliver.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1519,7 +1508,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 5.12564e+06,
+		"initialSize": 99763,
 		"inputAbbreviatedPath": "\/img\/hero-oliver.jpg",
 		"outputAbbreviatedPath": "\/img\/hero-oliver.jpg",
 		"outputPathIsOutsideProject": 0,
