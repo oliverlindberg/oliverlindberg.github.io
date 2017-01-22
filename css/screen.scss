@@ -533,28 +533,69 @@ Lindberg Interviews
 
 .lindberg-interviews {
 
-	img {
-		display: block;
-		width: 25%;
-		float: left;
-		transform: rotate(-2deg);
+	// img {
+	// 	display: block;
+	// 	width: 25%;
+	// 	float: left;
+	// 	transform: rotate(-2deg);
+	//
+	// 	&:nth-child(1) {
+	//
+	// 		transform: rotate(-4deg);
+	// 	}
+	//
+	// 	&:nth-child(2) {
+	//
+	// 		transform: rotate(5deg);
+	// 	}
+	// 	&:nth-child(3) {
+	//
+	// 		transform: rotate(-3deg);
+	// 	}
+	// 	&:nth-child(4) {
+	//
+	// 		transform: rotate(6deg);
+	// 	}
+	// }
 
-		&:nth-child(1) {
+	background: #00AB6C url(/img/bkg-lindberg-interviews.jpg) top center;
+	background-size: cover;
+	text-align: center;
+	color: #FFF;
 
-			transform: rotate(-4deg);
+	h1 {
+		color: #FFF;
+	}
+
+	p {
+		font-family: Georgia;
+		font-style: italic;
+	}
+
+	a {
+		border-color: #FFF;
+		font-weight: 700;
+		color: #FFF;
+
+		&:hover {
+			border-color: #444;
+			color: #444;
 		}
+	}
 
-		&:nth-child(2) {
+	a.button {
+		background: #FFF;
+		display: inline-block;
+		padding: 1rem 4rem;
+		border: none;
+		border-radius: 0.25rem;
+		//text-transform: uppercase;
+		letter-spacing: 1px;
+		color: #444;
 
-			transform: rotate(5deg);
-		}
-		&:nth-child(3) {
-
-			transform: rotate(-3deg);
-		}
-		&:nth-child(4) {
-
-			transform: rotate(6deg);
+		&:hover {
+			background: #444;
+			color: #FFF;
 		}
 	}
 
