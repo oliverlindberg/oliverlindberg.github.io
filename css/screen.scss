@@ -26,7 +26,7 @@ Base styles
 ---------------------------------------------------------------------------------------------------------- */
 
 ::selection {
-	background: #0C4180;
+	background: #D0021B;
 	color: #FFF;
 }
 
@@ -123,8 +123,6 @@ h1 {
 	font-size: 3rem;
 	font-weight: 900;
 	line-height: 3rem;
-	//letter-spacing: 1px;
-	//text-align: center;
 	color: #000;
 
 	@media screen and (min-width: $mq-tablet) {
@@ -211,6 +209,22 @@ figcaption {
 	&.inverse {
 		background: #F1F1F1;
 		color: #666;
+	}
+}
+
+.button {
+	background: #444;
+	display: inline-block;
+	margin-top: 2rem;
+	padding: 1rem 4rem;
+	border: none;
+	border-radius: 0.25rem;
+	letter-spacing: 1px;
+	color: #FFF;
+
+	&:hover {
+		background: #000;
+		color: #FFF;
 	}
 }
 
@@ -310,12 +324,6 @@ Header
 		font-weight: 500;
 		font-style: italic;
 
-		@media screen and (min-width: $mq-tablet) {
-			//font-size: 2.2rem;
-		}
-
-
-
 		@media screen and (min-width: $mq-desktop) {
 			margin-bottom: 3rem;
 			font-size: 2.4rem;
@@ -360,6 +368,64 @@ figure.hero {
 		p {
 			max-width: 1100px;
 		}
+	}
+}
+
+/* ----------------------------------------------------------------------------------------------------------
+
+Pixel Pioneers
+
+---------------------------------------------------------------------------------------------------------- */
+
+.pixel-pioneers {
+	background:linear-gradient(rgba(138,46,93, 0.9), rgba(138,46,93, 0.9)), url(/img/bkg-pp.jpg);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+	color: #FFF;
+	text-align: center;
+
+	a {
+		font-weight: 700;
+		border-color: #FFF;
+		color: #FFF;
+	}
+
+	p {
+		font-size: 2rem;
+		line-height: 3.6rem;
+		font-weight: 600;
+	}
+
+	p:first-of-type {
+		font-size: 2.5rem;
+		font-weight: 700;
+	}
+
+	svg {
+		width: 75%;
+		margin-bottom: 2rem;
+
+		@media screen and (min-width: $mq-tablet) {
+			width: 50%;
+			margin-bottom: 3rem;
+		}
+
+		@media screen and (min-width: $mq-desktop) {
+			width: 35%;
+		}
+	}
+
+	svg * {
+		fill: #fff;
+	}
+
+	a.button {
+		@extend .button;
+		background: #FFF;
+		font-weight: 700;
+		color: #8A2E5D
 	}
 }
 
@@ -558,14 +624,8 @@ Lindberg Interviews
 	}
 
 	a.button {
+		@extend .button;
 		background: #FFF;
-		display: inline-block;
-		margin-top: 2rem;
-		padding: 1rem 4rem;
-		border: none;
-		border-radius: 0.25rem;
-		//text-transform: uppercase;
-		letter-spacing: 1px;
 		color: #444;
 
 		&:hover {
@@ -574,6 +634,61 @@ Lindberg Interviews
 		}
 	}
 
+}
+
+/* ----------------------------------------------------------------------------------------------------------
+
+Newsletter
+
+---------------------------------------------------------------------------------------------------------- */
+
+.newsletter {
+	background:linear-gradient(rgba(208,2,27, 0.8), rgba(208,2,27, 0.8)), url(/img/bkg-newsletter.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #FFF;
+
+	h1, p, fieldset, a {
+		color: #FFF;
+	}
+
+	a {
+		border-color: #FFF;
+		font-weight: 700;
+	}
+
+	input[type="email"],
+	button {
+		padding: 1rem;
+		border: none;
+		font-size: 1.6rem;
+		font-weight: 600;
+		-webkit-appearance: none;
+	}
+
+	input[type="email"] {
+		width: 100%;
+		border-radius: 0.25rem 0.25rem 0 0;
+		color: #000;
+
+		@media screen and (min-width: $mq-tablet) {
+			width: 70%;
+			border-radius: 0.25rem;
+		}
+	}
+
+	button {
+		background: #000;
+		width: 100%;
+		border-radius: 0 0 0.25rem 0.25rem;
+		color: #FFF;
+
+		@media screen and (min-width: $mq-tablet) {
+			width: 29%;
+			border-radius: 0.25rem;
+		}
+	}
 }
 
 /* ----------------------------------------------------------------------------------------------------------

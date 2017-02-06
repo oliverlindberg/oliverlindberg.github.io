@@ -1608,6 +1608,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/_site\/img\/bkg-newsletter.jpg": {
+		"ft": 16384,
+		"iS": 55147,
+		"oA": 0,
+		"oAP": "\/_site\/img\/bkg-newsletter.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/_site\/img\/favicons\/android-chrome-192x192.png": {
 		"ft": 32768,
 		"iS": 43737,
@@ -1688,7 +1696,7 @@
 		},
 	"\/_site\/img\/hero-oliver-2.jpg": {
 		"ft": 16384,
-		"iS": 946088,
+		"iS": 64026,
 		"oA": 0,
 		"oAP": "\/_site\/img\/hero-oliver-2.jpg",
 		"oF": 0,
@@ -1701,6 +1709,16 @@
 		"oAP": "\/_site\/img\/hero-oliver.jpg",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/_site\/img\/pp.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/img\/pp.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/_site\/index.html": {
 		"ft": 8192,
@@ -1752,6 +1770,14 @@
 		"oAP": "\/img\/bkg-lindberg-interviews.jpg",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/img\/bkg-newsletter.jpg": {
+		"ft": 16384,
+		"iS": 85830,
+		"oA": 0,
+		"oAP": "\/img\/bkg-newsletter.jpg",
+		"oF": 0,
+		"opt": 1
 		},
 	"\/img\/favicons\/android-chrome-192x192.png": {
 		"ft": 32768,
@@ -1846,6 +1872,16 @@
 		"oAP": "\/img\/hero-oliver.jpg",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/img\/pp.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/pp.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/index.html": {
 		"ft": 8192,
