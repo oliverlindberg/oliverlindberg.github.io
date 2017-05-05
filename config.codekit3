@@ -7,7 +7,7 @@
 		"uuidString": "12D014ED-BE82-4266-A878-B563A3FFB77D"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25813",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -1584,12 +1584,6 @@
 		"oAP": "\/_site\/404.html",
 		"oF": 0
 		},
-	"\/_site\/CNAME": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/CNAME",
-		"oF": 0
-		},
 	"\/_site\/css\/screen.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1599,126 +1593,6 @@
 		"oAP": "\/_site\/css\/screen-min.css",
 		"oF": 1,
 		"oS": 0
-		},
-	"\/_site\/img\/bkg-lindberg-interviews.jpg": {
-		"ft": 16384,
-		"iS": 48379,
-		"oA": 0,
-		"oAP": "\/_site\/img\/bkg-lindberg-interviews.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/img\/bkg-newsletter.jpg": {
-		"ft": 16384,
-		"iS": 55147,
-		"oA": 0,
-		"oAP": "\/_site\/img\/bkg-newsletter.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/img\/favicons\/android-chrome-192x192.png": {
-		"ft": 32768,
-		"iS": 43737,
-		"oA": 0,
-		"oAP": "\/_site\/img\/favicons\/android-chrome-192x192.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/img\/favicons\/android-chrome-512x512.png": {
-		"ft": 32768,
-		"iS": 220346,
-		"oA": 0,
-		"oAP": "\/_site\/img\/favicons\/android-chrome-512x512.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/img\/favicons\/apple-touch-icon.png": {
-		"ft": 32768,
-		"iS": 39249,
-		"oA": 0,
-		"oAP": "\/_site\/img\/favicons\/apple-touch-icon.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/img\/favicons\/browserconfig.xml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/img\/favicons\/browserconfig.xml",
-		"oF": 0
-		},
-	"\/_site\/img\/favicons\/favicon-16x16.png": {
-		"ft": 32768,
-		"iS": 1896,
-		"oA": 0,
-		"oAP": "\/_site\/img\/favicons\/favicon-16x16.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/img\/favicons\/favicon-32x32.png": {
-		"ft": 32768,
-		"iS": 2887,
-		"oA": 0,
-		"oAP": "\/_site\/img\/favicons\/favicon-32x32.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/img\/favicons\/favicon.ico": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/img\/favicons\/favicon.ico",
-		"oF": 0
-		},
-	"\/_site\/img\/favicons\/manifest.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/_site\/img\/favicons\/manifest-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/_site\/img\/favicons\/mstile-150x150.png": {
-		"ft": 32768,
-		"iS": 25550,
-		"oA": 0,
-		"oAP": "\/_site\/img\/favicons\/mstile-150x150.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/img\/favicons\/safari-pinned-tab.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/img\/favicons\/safari-pinned-tab.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/img\/hero-oliver-2.jpg": {
-		"ft": 16384,
-		"iS": 64026,
-		"oA": 0,
-		"oAP": "\/_site\/img\/hero-oliver-2.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/img\/hero-oliver.jpg": {
-		"ft": 16384,
-		"iS": 99763,
-		"oA": 0,
-		"oAP": "\/_site\/img\/hero-oliver.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_site\/img\/pp.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/img\/pp.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"\/_site\/index.html": {
 		"ft": 8192,
@@ -1769,7 +1643,9 @@
 		"oA": 0,
 		"oAP": "\/img\/bkg-lindberg-interviews.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/bkg-newsletter.jpg": {
 		"ft": 16384,
@@ -1777,7 +1653,19 @@
 		"oA": 0,
 		"oAP": "\/img\/bkg-newsletter.jpg",
 		"oF": 0,
-		"opt": 1
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/bkg-pp.jpg": {
+		"ft": 16384,
+		"iS": 295267,
+		"oA": 0,
+		"oAP": "\/img\/bkg-pp.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/favicons\/android-chrome-192x192.png": {
 		"ft": 32768,
@@ -1785,7 +1673,10 @@
 		"oA": 0,
 		"oAP": "\/img\/favicons\/android-chrome-192x192.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/favicons\/android-chrome-512x512.png": {
 		"ft": 32768,
@@ -1793,7 +1684,10 @@
 		"oA": 0,
 		"oAP": "\/img\/favicons\/android-chrome-512x512.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/favicons\/apple-touch-icon.png": {
 		"ft": 32768,
@@ -1801,7 +1695,10 @@
 		"oA": 0,
 		"oAP": "\/img\/favicons\/apple-touch-icon.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/favicons\/browserconfig.xml": {
 		"ft": 8192,
@@ -1815,7 +1712,10 @@
 		"oA": 0,
 		"oAP": "\/img\/favicons\/favicon-16x16.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/favicons\/favicon-32x32.png": {
 		"ft": 32768,
@@ -1823,7 +1723,10 @@
 		"oA": 0,
 		"oAP": "\/img\/favicons\/favicon-32x32.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/favicons\/favicon.ico": {
 		"ft": 8192,
@@ -1845,7 +1748,10 @@
 		"oA": 0,
 		"oAP": "\/img\/favicons\/mstile-150x150.png",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/favicons\/safari-pinned-tab.svg": {
 		"ft": 2097152,
@@ -1863,7 +1769,9 @@
 		"oA": 0,
 		"oAP": "\/img\/hero-oliver-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/hero-oliver.jpg": {
 		"ft": 16384,
@@ -1871,7 +1779,9 @@
 		"oA": 0,
 		"oAP": "\/img\/hero-oliver.jpg",
 		"oF": 0,
-		"opt": 0
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/img\/pp.svg": {
 		"ft": 2097152,
@@ -2570,6 +2480,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -2770,6 +2684,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -2847,6 +2765,10 @@
 			"optionString": ""
 			},
 		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -3046,6 +2968,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
 		"object-curly-newline": {
 			"active": 0,
 			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
@@ -3097,6 +3023,10 @@
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -3191,6 +3121,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
@@ -3637,7 +3571,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -3660,14 +3595,6 @@
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
 		"outputStyle": 1
-		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -3730,7 +3657,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
