@@ -7,7 +7,7 @@
 		"uuidString": "12D014ED-BE82-4266-A878-B563A3FFB77D"
 		}
 	],
-"creatorBuild": "25813",
+"creatorBuild": "25849",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -1584,6 +1584,12 @@
 		"oAP": "\/_site\/404.html",
 		"oF": 0
 		},
+	"\/_site\/CNAME": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/CNAME",
+		"oF": 0
+		},
 	"\/_site\/css\/screen.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1593,6 +1599,162 @@
 		"oAP": "\/_site\/css\/screen-min.css",
 		"oF": 1,
 		"oS": 0
+		},
+	"\/_site\/img\/bkg-lindberg-interviews.jpg": {
+		"ft": 16384,
+		"iS": 48379,
+		"oA": 0,
+		"oAP": "\/_site\/img\/bkg-lindberg-interviews.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/img\/bkg-newsletter.jpg": {
+		"ft": 16384,
+		"iS": 55147,
+		"oA": 0,
+		"oAP": "\/_site\/img\/bkg-newsletter.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/img\/bkg-pp.jpg": {
+		"ft": 16384,
+		"iS": 29840,
+		"oA": 0,
+		"oAP": "\/_site\/img\/bkg-pp.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/img\/favicons\/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 43737,
+		"oA": 0,
+		"oAP": "\/_site\/img\/favicons\/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/img\/favicons\/android-chrome-512x512.png": {
+		"ft": 32768,
+		"iS": 220346,
+		"oA": 0,
+		"oAP": "\/_site\/img\/favicons\/android-chrome-512x512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/img\/favicons\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 39249,
+		"oA": 0,
+		"oAP": "\/_site\/img\/favicons\/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/img\/favicons\/browserconfig.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/img\/favicons\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/_site\/img\/favicons\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 1896,
+		"oA": 0,
+		"oAP": "\/_site\/img\/favicons\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/img\/favicons\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 2887,
+		"oA": 0,
+		"oAP": "\/_site\/img\/favicons\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/img\/favicons\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_site\/img\/favicons\/favicon.ico",
+		"oF": 0
+		},
+	"\/_site\/img\/favicons\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/_site\/img\/favicons\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/_site\/img\/favicons\/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 25550,
+		"oA": 0,
+		"oAP": "\/_site\/img\/favicons\/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/img\/favicons\/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/img\/favicons\/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/_site\/img\/hero-oliver-2.jpg": {
+		"ft": 16384,
+		"iS": 64026,
+		"oA": 0,
+		"oAP": "\/_site\/img\/hero-oliver-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/img\/hero-oliver.jpg": {
+		"ft": 16384,
+		"iS": 99763,
+		"oA": 0,
+		"oAP": "\/_site\/img\/hero-oliver.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_site\/img\/pp.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/img\/pp.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/_site\/index.html": {
 		"ft": 8192,
@@ -3744,6 +3906,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
